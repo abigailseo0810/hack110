@@ -42,7 +42,7 @@ def main() -> None:
     # textRect.center = (40, 40)
     # disp.blit(h1, textRect)
     while running:
-        disp.blit(h1, textRect)
+        # disp.blit(h1, textRect)
         for event in pygame.event.get():
             if event.type == QUIT:
                 running = False
